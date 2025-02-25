@@ -30,7 +30,19 @@ public class User {
         return id;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
 
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 
+    public void setEmail(String email) {
+        this.email = email;
+    }
 }
